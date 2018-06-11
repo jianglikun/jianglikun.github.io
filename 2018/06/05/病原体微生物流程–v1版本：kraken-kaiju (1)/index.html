@@ -785,13 +785,18 @@
 <!-- END LOCAL -->
 
     
+      <style>
+        a.gitment-editor-footer-tip { display: none; }
+        .gitment-container.gitment-footer-container { display: none; }
+      </style>
+    
 
     
       <script type="text/javascript">
       function renderGitment(){
         var gitment = new Gitmint({
             id: window.location.pathname, 
-            owner: 'jianglikun/',
+            owner: 'jianglikun',
             repo: 'jianglikun.github.io',
             
             lang: "zh-Hans" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
